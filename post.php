@@ -10,7 +10,7 @@ $data[0] = $post['token'];
 $data[1] = $timestamp;
 $data[2] = $nonce;
 sort($data,SORT_LOCALE_STRING);
-$result = $data[1].$data[0].$data[2];
+$result = $data[0].$data[1].$data[2];
 $signature = strtoupper(sha1($result));
 $message = "<xml>
 				    <ToUser><![CDATA[%s]]></ToUser>
