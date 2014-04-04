@@ -2,7 +2,7 @@
 <head>
 <meta charset="utf8"></meta>
 <title>test</title>
-<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.2.min.js"></script>
+<script src="jquery-1.7.2.min.js"></script>
 </head>
 <body>
 	
